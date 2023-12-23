@@ -1,10 +1,19 @@
 enum RegionName {
   Angmar,
   Mount_Gram,
-  Mount_Gundabad,
+  Mount_Gundabad,  // 2
+  North_Ered_Luin,
+  Evendim,
+  Arnor,
   Ettenmoors,
   Trollshaws,
-  Rivendell
+  Rivendell,
+  Eagles_Eyrie,
+  Carrock,
+  Northen_Mirkwood,
+  Withered_Heath,
+  Erebor,
+  Iron_Hills  // 14
 };
 
 enum DiceResult { army, character, eye, hybrid, muster, palantir };

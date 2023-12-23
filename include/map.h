@@ -13,9 +13,11 @@ struct Region {
 
 class Map {
  private:
-  std::vector<Region> regions;
-  std::vector<std::vector<Region> > adjlist;
+  static std::vector<Region> regions;
+  static std::vector<std::vector<int> > adjlist;
 
  public:
   Map();
+  void printState();
+  void flipFree(RegionName);
 };
