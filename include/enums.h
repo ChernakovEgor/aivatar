@@ -1,3 +1,18 @@
+#pragma once
+
+enum DiceResult { army, character, eye, hybrid, muster, palantir };
+
+enum Nation {
+  Dwarves,
+  Elves,
+  Gondor,
+  North,
+  Isengard,
+  Mordor,
+  Easterlings,
+  None
+};
+
 enum RegionName {
   Angmar,
   Mount_Gram,
@@ -14,17 +29,4 @@ enum RegionName {
   Withered_Heath,
   Erebor,
   Iron_Hills  // 14
-};
-
-enum DiceResult { army, character, eye, hybrid, muster, palantir };
-
-enum Nation {
-  Dwarves,
-  Elves,
-  Gondor,
-  North,
-  Isengard,
-  Mordor,
-  Easterlings,
-  None
 };
