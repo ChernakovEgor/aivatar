@@ -3,5 +3,9 @@ cmake_minimum_required(VERSION 3.15)
 project(AIvatar)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set (CMAKE_CXX_STANDARD 20)
-add_executable(aivatar game_objects.cpp)
 
+# include_directories(include)
+add_executable(aivatar main.cpp include/map.cpp include/map.h include/enums.h)
+
+# target_include_directories(aivatar PUBLIC include/)
+# set(SOURCES main.cpp include/map.cpp include/map.h include/enums.h )
